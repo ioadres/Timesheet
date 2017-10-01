@@ -167,6 +167,31 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\ic_feature_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_calendar_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_calendar_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_calendar_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_calendar_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_config_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_config_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_config_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_config_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_contact_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_contact_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_contact_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_contact_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_faq_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_faq_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_faq_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_faq_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_profile_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_profile_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_profile_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_profile_board.png" />
+    <AndroidResource Include="Resources\drawable\ic_review_board.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_review_board.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_review_board.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_review_board.png" />
   </ItemGroup>
   <Import Project="..\Tokiota\Tokiota.projitems" Label="Shared" Condition="Exists('..\Tokiota\Tokiota.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

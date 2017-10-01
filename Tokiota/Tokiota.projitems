@@ -53,5 +53,6 @@
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)Infrastructure\" />
     <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CustomRenderers\" />
   </ItemGroup>
 </Project>

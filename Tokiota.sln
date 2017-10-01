@@ -8,6 +8,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokiota.iOS", "iOS\Tokiota.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tokiota.Droid", "Droid\Tokiota.Droid.csproj", "{91A9BA07-81C3-41D8-94A4-3D8E498A7FFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material", "Material", "{CFD6F6A8-A519-4EEF-8C4B-849D3A35A3F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{0C2A3C89-A337-488F-A4FD-46DF968D7532}"
+	ProjectSection(SolutionItems) = preProject
+		Material\ic.png = Material\ic.png
+		Material\ic_board.png = Material\ic_board.png
+		Material\images\ic_calendar_board.zip = Material\images\ic_calendar_board.zip
+		Material\images\ic_config_board.zip = Material\images\ic_config_board.zip
+		Material\images\ic_contact_board.zip = Material\images\ic_contact_board.zip
+		Material\images\ic_faq_board.zip = Material\images\ic_faq_board.zip
+		Material\images\ic_hamburguer.zip = Material\images\ic_hamburguer.zip
+		Material\images\ic_profile_board.zip = Material\images\ic_profile_board.zip
+		Material\images\ic_review_board.zip = Material\images\ic_review_board.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tokiota\Tokiota.projitems*{91a9ba07-81c3-41d8-94a4-3d8e498a7ffe}*SharedItemsImports = 4
@@ -53,5 +68,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DA016D1-2C91-4CB5-AF3D-C81FF2BF29DA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C2A3C89-A337-488F-A4FD-46DF968D7532} = {CFD6F6A8-A519-4EEF-8C4B-849D3A35A3F5}
 	EndGlobalSection
 EndGlobal

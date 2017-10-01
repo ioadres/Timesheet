@@ -141,9 +141,6 @@
     <ImageAsset Include="Assets.xcassets\Contents.json">
       <InProject>false</InProject>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Image.imageset\Contents.json">
-      <InProject>false</InProject>
-    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tab_about.png" />
@@ -156,6 +153,15 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\ic_hamburguer.png" />
+    <BundleResource Include="Resources\ic_calendar.png" />
+    <BundleResource Include="Resources\ic_feature_board.png" />
+    <BundleResource Include="Resources\ic_calendar_board.png" />
+    <BundleResource Include="Resources\ic_config_board.png" />
+    <BundleResource Include="Resources\ic_contact_board.png" />
+    <BundleResource Include="Resources\ic_faq_board.png" />
+    <BundleResource Include="Resources\ic_profile_board.png" />
+    <BundleResource Include="Resources\ic_review_board.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDelegate.cs" />
@@ -170,8 +176,7 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\ic_calendar.png" />
-    <AndroidResource Include="Resources\ic_hamburguer.png" />
+    <Folder Include="Assets.xcassets\Calendar.imageset\" />
   </ItemGroup>
   <Import Project="..\Tokiota\Tokiota.projitems" Label="Shared" Condition="Exists('..\Tokiota\Tokiota.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
