@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tokiota.Views.MenuPage" xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" prism:ViewModelLocator.AutowireViewModel="True" Icon="ic_hamburguer.png" BackgroundColor="{StaticResource SecundaryBackgroundColor}" Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+            <StackLayout BackgroundColor="{StaticResource PrimaryBackgroundColor}" VerticalOptions="FillAndExpand" HeightRequest="150">
+                <Image Source="icon.png" WidthRequest="150" HeightRequest="150">
+                </Image>
+            </StackLayout>
+            <ListView ItemsSource="{Binding MenuTimeSheet}" BackgroundColor="{StaticResource SecundaryBackgroundColor}" SeparatorVisibility="None" VerticalOptions="Center" HeightRequest="190" HasUnevenRows="true">
+                <ListView.Header>
+                    <StackLayout Padding="5,7,0,15" BackgroundColor="{StaticResource SecundaryBackgroundColor}">
+                        <Label Text="{Binding TitleMenuTimesheet}" Margin="12,0,0,0" FontSize="20" TextColor="{StaticResource FontMenuColor}">
+                        </Label>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="{StaticResource SecundaryBackgroundColor}" VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="20,10,0,10" Spacing="20">
+                                <Image WidthRequest="25" HeightRequest="25" Source="{Binding Icon}">
+                                </Image>
+                                <Label Grid.Column="1" VerticalOptions="Center" FontSize="16" TextColor="{StaticResource FontMenuItemColor}" Text="{Binding Title}">
+                                </Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView ItemsSource="{Binding MenuConfiguration}" BackgroundColor="{StaticResource SecundaryBackgroundColor}" SeparatorVisibility="None" VerticalOptions="Center" HeightRequest="190" HasUnevenRows="true">
+                <ListView.Header>
+                    <StackLayout Padding="5,5,0,20">
+                        <Label Text="{Binding TitleMenuConfiguration}" Margin="12,0,0,0" FontSize="20" TextColor="{StaticResource FontMenuColor}" FontFamily="Tahoma">
+                        </Label>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="{StaticResource SecundaryBackgroundColor}" Orientation="Horizontal" Padding="20,10,0,10" Spacing="20">
+                                <Image WidthRequest="25" HeightRequest="25" Source="{Binding Icon}">
+                                </Image>
+                                <Label Grid.Column="1" VerticalOptions="Center" FontSize="16" TextColor="{StaticResource FontMenuItemColor}" Text="{Binding Title}">
+                                </Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
