@@ -14,7 +14,6 @@ namespace Tokiota
 			InitializeComponent();
 
             await NavigationService.NavigateAsync("MasterPage/BaseNavigationPage/HomeDetailPage");
-			//await NavigationService.NavigateAsync("MasterPage/BaseNavigationPage/HomePage");
 		}
 
 
